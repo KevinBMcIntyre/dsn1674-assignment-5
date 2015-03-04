@@ -26,6 +26,10 @@ main {
 nav li {
 	float: left;
 	display: inline-block;
+	width: 33.3%;
+	border: 1px solid blue;
+	padding: .5em;
+	text-align: center;
 }
 .inset-left {
 	width: 31%;
@@ -46,12 +50,6 @@ a{
 	color: white;
 }
 
-nav li{
-	width: 33.3%;
-	border: 1px solid blue;
-	padding: .5em;
-	text-align: center;
-}
 
 nav ol{
 	overflow: hidden;
