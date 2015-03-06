@@ -22,6 +22,12 @@ h1 {
 main {
 	line-height: 1.25em;
 }
+.p-1, .p-2{
+	margin: .6em;
+}
+.p-2 {
+	clear: left;
+}
 nav li {
 	float: left;
 	display: inline-block;
