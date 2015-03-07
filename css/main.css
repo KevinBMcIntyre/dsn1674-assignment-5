@@ -66,7 +66,7 @@ nav ol{
 	padding: 0;
 }
 
-li:hover{
+nav li:hover{
 	background-color: #a63f37;
 }
 h2 {
@@ -75,7 +75,7 @@ h2 {
 	padding: 1em;
 	background-color: #dc8252;
 	border-top: 1px solid #cd5b34;
-	margin: 0 -.6em;
+	margin-bottom: 0;
 	font-size: 1.2rem;
 	clear: both;
 }
@@ -88,6 +88,7 @@ h2 {
 }
 .corn img{
 	width: 100%;
+	display: block;
 }
 .corn{
 	margin: 0;
@@ -98,12 +99,11 @@ h2 {
 	color: white;
 	padding:.2em 0 .5em 0;
 	background-color: #dc8252;
-	border-bottom: 1px solid #cd5b34;
-	margin-top: -.5em;
 	font-style: italic;
 }
 .rice img{
 	width: 100%;
+	display: block;
 }
 .rice{
 	margin:0;
@@ -116,12 +116,12 @@ h2 {
 	padding:.2em 0 .5em 0;
 	background-color: #dc8252;
 	border-bottom: 1px solid #cd5b34;
-	margin-top: -.5em;
 	font-style: italic;
 	font-size: .8em;
 }
 .oats img{
 	width: 100%;
+	display:block;
 }
 .oats {
 	width: 50%;
@@ -134,7 +134,20 @@ h2 {
 	padding:.2em 0 .5em 0;
 	background-color: #dc8252;
 	border-bottom: 1px solid #cd5b34;
-	margin-top: -.5em;
 	font-style: italic;
 	font-size: .8em;
+}
+.legumes {
+	background-color: white;
+	border: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.peanuts {
+	width: 20%;
+	float: left;
+	margin: 0 7px;
+	clear: left;
+	border: 1px solid #cccccc;
 }
