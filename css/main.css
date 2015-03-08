@@ -1,6 +1,6 @@
 html{
-	font-family: Merriweather, serif;
 	box-sizing: border-box;
+		font-family: Merriweather, serif;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
@@ -100,6 +100,7 @@ h2 {
 	padding:.2em 0 .5em 0;
 	background-color: #dc8252;
 	font-style: italic;
+	font-family: none, serif;
 }
 .rice img{
 	width: 100%;
@@ -118,6 +119,7 @@ h2 {
 	border-bottom: 1px solid #cd5b34;
 	font-style: italic;
 	font-size: .8em;
+	font-family: none, serif;
 }
 .oats img{
 	width: 100%;
@@ -136,6 +138,7 @@ h2 {
 	border-bottom: 1px solid #cd5b34;
 	font-style: italic;
 	font-size: .8em;
+	font-family: none, serif;
 }
 .legumes {
 	background-color: white;
@@ -143,11 +146,29 @@ h2 {
 	color: #000;
 	font-weight: bold;
 }
+.peanuts, .beans, .lentils {
+		float: left;
+		clear: left;
+	}
 
-.peanuts {
-	width: 20%;
+.peanuts img, .beans img, .lentils img{
+	width: 24%;
 	float: left;
-	margin: 0 7px;
+	margin: 0 7px 22px 7px;
 	clear: left;
 	border: 1px solid #cccccc;
+
+}
+
+ul {
+		font-family: none, serif;
+		padding: 0;
+}
+footer {
+  padding: .5em;
+  color: #dc8252;
+  background-color: #cd5b34;
+  clear: both;
+  text-align: center;
+  font-size: .75rem;
 }
