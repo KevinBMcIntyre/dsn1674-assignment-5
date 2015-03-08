@@ -1,6 +1,6 @@
 html{
 	box-sizing: border-box;
-		font-family: Merriweather, serif;
+	font-family: Merriweather, serif;
 }
 *, *::before, *::after{
 	box-sizing: inherit;
@@ -57,15 +57,12 @@ a{
 	text-decoration: none;
 	color: white;
 }
-
-
 nav ol{
 	overflow: hidden;
 	margin: auto;
 	width: 100%;
 	padding: 0;
 }
-
 nav li:hover{
 	background-color: #a63f37;
 }
@@ -95,7 +92,7 @@ h2 {
 	width: 100%;
 }
 .corn figcaption {
-		text-align: center;
+	text-align: center;
 	color: white;
 	padding:.2em 0 .5em 0;
 	background-color: #dc8252;
@@ -147,22 +144,19 @@ h2 {
 	font-weight: bold;
 }
 .peanuts, .beans, .lentils {
-		float: left;
-		clear: left;
+	float: left;
+	clear: left;
 	}
-
 .peanuts img, .beans img, .lentils img{
 	width: 24%;
 	float: left;
 	margin: 0 7px 22px 7px;
 	clear: left;
 	border: 1px solid #cccccc;
-
 }
-
 ul {
-		font-family: none, serif;
-		padding: 0;
+	font-family: none, serif;
+	padding: 0;
 }
 footer {
   padding: .5em;
